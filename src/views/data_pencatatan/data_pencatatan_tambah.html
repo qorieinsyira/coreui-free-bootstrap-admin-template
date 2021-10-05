@@ -79,26 +79,22 @@
           </svg>Dashboard<span class="badge badge-sm bg-info ms-auto"></span></a></class>
 
       <!-- Manajemen Data Kendaraan -->
-      <class class="nav-item"><a class="nav-link" href="data_kendaraan.html">
+      <class class="nav-item"><a class="nav-link" href="data_kendaraan/data_kendaraan.html">
           <svg class="nav-icon">
             <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-notes"></use>
           </svg>Data Kendaraan<span class="badge badge-sm bg-info ms-auto"></span></a></class>
 
       <!-- Manajemen Data Pencatatan -->
-      <class class="nav-item"><a class="nav-link" href="data_pencatatan.html">
+      <class class="nav-item"><a class="nav-link" href="data_pencatatan/data_pencatatan.html">
           <svg class="nav-icon">
             <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-notes"></use>
           </svg>Data Pencatatan<span class="badge badge-sm bg-info ms-auto"></span></a></class>
 
       <!-- Manajemen Data User -->
-      <class class="nav-item"><a class="nav-link" href="data_user.html">
+      <class class="nav-item"><a class="nav-link" href="data_user/data_user.html">
           <svg class="nav-icon">
             <use xlink:href="node_modules/@coreui/icons/sprites/free.svg#cil-user"></use>
           </svg>Data User<span class="badge badge-sm bg-info ms-auto"></span></a></class>
-    </ul>
-    </li>
-
-
     </ul>
   </div>
   <div class="wrapper d-flex flex-column min-vh-100 bg-light">
@@ -109,7 +105,7 @@
             <use xlink:href="assets/brand/coreui.svg#full"></use>
           </svg></a>
         <ul class="header-nav d-none d-md-flex">
-          <li class="nav-item"><a class="nav-link" href="#">Kepemilikan Kendaraan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Data Pencatatan</a></li>
         </ul>
 
         <ul class="header-nav ms-3">
@@ -139,52 +135,75 @@
           </li>
         </ul>
       </div>
-
     </header>
+
     <div class="body flex-grow-1 px-3">
       <div class="container-lg">
         <div class="col-12">
           <div class="card mb-4">
-            <div class="card-header"><strong>Kepemilikan Kendaraan</strong><span class="small ms-1"></span></div>
+            <div class="card-header"><strong>Data Pencatatan</strong><span class="small ms-1">
+              </span></div>
             <div class="card-body">
               <div class="tab-content rounded-bottom">
-                <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-49">
+                <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-1245">
                   <!-- form -->
                   <form>
-                    <!-- Plat Nomor Konstan -->
+
+                    <!-- ID Pencatatan -->
                     <div class="row mb-3">
-                      <label class="col-sm-2 col-form-label" for="inputEmail3">Plat Nomor</label>
+                      <label class="col-sm-2 col-form-label" for="inputEmail3">ID Pencatatan</label>
                       <div class="col-sm-10">
                         <input class="form-control" id="inputEmail3" type="email">
                       </div>
                     </div>
-                    <!-- Radio button untuk Kepemilikan Kendaraan -->
+
+                    <!-- Nopol -->
+                    <div class="row mb-3">
+                      <label class="col-sm-2 col-form-label" for="inputEmail3">Nopol</label>
+                      <div class="col-sm-10">
+                        <input class="form-control" id="inputEmail3" type="email">
+                      </div>
+                    </div>
+
+                    <!-- Tanggal -->
+                    <div class="row mb-3">
+                      <label class="col-sm-2 col-form-label" for="inputEmail3">Tanggal</label>
+                      <div class="col-sm-10">
+                        <input class="form-control" id="inputEmail3" type="email">
+                      </div>
+                    </div>
+
+                    <!-- Jam -->
+                    <div class="row mb-3">
+                      <label class="col-sm-2 col-form-label" for="inputEmail3">Jam</label>
+                      <div class="col-sm-10">
+                        <input class="form-control" id="inputEmail3" type="email">
+                      </div>
+                    </div>
+
+                    <!-- Status Pencatatan -->
                     <fieldset class="row mb-3">
-                      <legend class="col-form-label col-sm-2 pt-0">Kepemilikan Kendaraan</legend>
+                      <legend class="col-form-label col-sm-2 pt-0">Status Pencatatan</legend>
                       <div class="col-sm-10">
                         <div class="form-check">
                           <input class="form-check-input" id="gridRadios1" type="radio" name="gridRadios"
                             value="option1" checked>
-                          <label class="form-check-label" for="gridRadios1">Warga Setempat</label>
+                          <label class="form-check-label" for="gridRadios1">Masuk</label>
                         </div>
                         <div class="form-check">
                           <input class="form-check-input" id="gridRadios2" type="radio" name="gridRadios"
                             value="option2">
-                          <label class="form-check-label" for="gridRadios2">Tamu</label>
+                          <label class="form-check-label" for="gridRadios2">Keluar</label>
                         </div>
-                      </div>
                     </fieldset>
-
                     <button class="btn btn-primary" type="submit">Kirim</button>
                   </form>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </div>
   </div>
